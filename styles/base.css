@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header,main,footer{ 
+   font-family: 'roboto', sans-serif;
+    width: 40%;
+
+    margin:0 auto;
+    
+}
+
+
+div{
+
+    display:flex;
+     justify-content: center;
+     gap:10px;
+
+    background-color: blue;
+    color: white;
+    
+}
+
+img{ width:70px;
+    height: 80px;
+display: block;
+padding:5px;
+ 
+}
+
+nav { background-color: black;
+color:white
+}
+
+nav a { display:block;
+text-align: center;
+text-decoration: none;
+padding:5px;
+}
+
+
+main{
+    display:grid;
+
+
+    grid-template-columns: 1fr ;
+
+    grid-template-rows:1fr 0.4fr ;
+
+    grid-template-areas:"heading2"
+    "sect1"
+    " sect2" ;
+
+}
+
+
+h2{ grid-area: heading2;}
+
+main section:first-child{ grid-area: sect1;}
+
+main section:nth-child(2){
+     grid-area: sect2;
+    border: 2px thick black;}
+
+ section:nth-child(2)  p{ text-align: center;}
+
+h2{ text-align: center;}
+
+h3{  
+    background-color: blue;
+    color:white;
+    text-align: center;
+}
+
+ul{ list-style-type: decimal-leading-zero;}
+
+footer{
+    background-color: blue;
+    color: white ;
+    text-align:center;
+    padding: 10px;
+}
+
