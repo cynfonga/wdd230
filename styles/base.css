@@ -56,13 +56,15 @@ main{
 
 h2{ grid-area: heading2;}
 
-main section:first-child{ grid-area: sect1;}
+main section:first-child {
+     grid-area: sect1;}
 
 main section:nth-child(2){
      grid-area: sect2;
     border: 2px thick black;}
 
- section:nth-child(2)  p{ text-align: center;}
+ section:nth-child(2) 
+  p{ text-align: center;}
 
 h2{ text-align: center;}
 
