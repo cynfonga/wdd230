@@ -1,2 +1,25 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@300;400&family=Roboto:wght@100;300;400&display=swap');
+
+  body{ font-family: 'roboto' sans-serif;}
+
+  header,main,footer{
+    max-width: 640px;
+    margin:1rem auto;
+    border:1px solid #bbb;
+    padding:1rem;
+    background-color: #e6f2ff;
+
+  }
+
+  main{
+
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:1rem;
+  }
+
+  section{
+    padding: 1rem;
+    background-color:#fff
+  }
