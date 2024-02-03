@@ -1,0 +1,17 @@
+@media screen and (min-width: 1024px) {
+
+    header, main, footer{ 
+        max-width: 80%;
+    }
+
+    main{
+
+  display: grid;
+  grid-template-columns:0.5fr 0.5fr 0.5fr;
+  grid-template-rows:1fr;
+  grid-template-areas:" sect1 sect2 sect3" ;
+  grid-gap:10px;
+
+    }
+    
+}
