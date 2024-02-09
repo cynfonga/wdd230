@@ -43,9 +43,14 @@ nav ul.open {
     display:block
 }
 
+nav ul li { padding: 5px;
+text-decoration: none;}
+
 iframe{
     display: block;
  max-width:40%;
+ margin:0 auto;
+ padding: 15px;
 }
 
 #hamburgerbutton  span:nth-child(1){

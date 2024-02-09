@@ -1,7 +1,8 @@
 @media screen and (min-width:768px){
    nav ul , nav ul.open { display:flex;
    text-align: center;
-padding-left: 8px;}
+}
+
 
 button{
 
@@ -18,7 +19,7 @@ button{
     }
 
     iframe { 
-        
+
         display: flex;
         justify-content: center;
     }
