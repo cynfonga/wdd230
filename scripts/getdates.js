@@ -5,8 +5,8 @@ span1.textContent=new Date().toLocaleDateString('en-Us', options);
 const span2= document.getElementById('lastmodification');
 span2.textContent= document.lastModified;
 
-const button = document.querySelector("#hamburgermenu");
-const  list = document.querySelector("#hamburgerlist");
-button.addEventListener( 'click', function(){
-list.classList.toggle("open");
-  button.classList.toggle("open");});
+const mybutton = document.getElementById("hamburgermenu");
+const  list = document.getElementById("hamburgerlist");
+mybutton.addEventListener( 'click', function(){
+list.classList.toggle('open');
+mybutton.classList.toggle('open');});
