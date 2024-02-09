@@ -16,4 +16,8 @@ button{
     "heading2    heading2"
     " sect1   sect2";
     }
+
+    iframe { 
+        max-width: 100%;
+    }
 }
