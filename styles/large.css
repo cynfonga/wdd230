@@ -1,7 +1,12 @@
 @media screen and (min-width:768px){
-   nav  a { display:inline-block;
+   nav ul , nav ul.open { display:flex;
    text-align: center;
 padding-left: 8px;}
+
+button{
+
+    display: none;
+}
 
     main{display:grid;
          grid-template-columns: 1fr 1fr;

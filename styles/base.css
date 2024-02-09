@@ -32,13 +32,51 @@ nav { background-color: black;
 
 }
 
-nav a { display:block;
-text-align: center;
+nav ul { display:none ;
 text-decoration: none;
 padding:5px;
 color:white;
 }
 
+nav ul.open {
+
+    display:block
+}
+
+iframe{
+
+    text-align: center;
+}
+
+#hamburgerbutton  span:nth-child(1){
+    display:block;
+}
+
+#hamburgerbutton  span:nth-child(2){
+    display: none;
+}
+
+
+#hamburgerbutton.open  span:nth-child(1){
+    display: none;
+}
+
+
+#hamburgerbutton.open span:nth-child(2){
+
+    display: block;
+}
+
+
+#hamburgerbutton{
+
+    padding: 5px;
+    background:none;
+    font-size:48px;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
 
 main{
     display:grid;
@@ -75,12 +113,12 @@ h3{
     text-align: center;
 }
 
-ul{ list-style-type: decimal-leading-zero;}
+.card ul{ list-style-type: decimal-leading-zero;}
 
 footer{
     background-color: blue;
     color: white ;
     text-align:center;
     padding: 10px;
-}
 
+}
