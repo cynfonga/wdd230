@@ -1,7 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-header,main,footer{ 
+header,main,footer, iframe{ 
    font-family: 'roboto', sans-serif;
     width: 40%;
 
@@ -44,8 +44,8 @@ nav ul.open {
 }
 
 iframe{
-
-    text-align: center;
+    display: block;
+  width: 100%;
 }
 
 #hamburgerbutton  span:nth-child(1){
