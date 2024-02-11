@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+
+  margin:0;
+
+  box-sizing: border-box;
+
+}
+
+
+header,main,footer{
+    font-family: sans-serif;
+    max-width:60%;
+    margin:0 auto;
+}
+
+header,footer{
+
+    text-align: center;
+    background-color: brown;
+    color:white;
+    padding: 5px;
+}
+
+
+main{
+  padding:10px 0;
+
+      max-width:50% ;
+    display: grid;
+
+    grid-template-columns:1fr;
+
+    grid-template-rows:0.5 fr 0.5fr 0.2fr 0.1fr 0.1fr;
+
+    grid-template-areas: " sect1"
+    " sect2"
+    " sect3"
+    "sect4"
+    "sect5";
+
+    grid-gap:5px;
+
+   justify-content:center ;
+  align-items:center;}
+
+main section{
+    padding: 5px;
+}
+    main section:nth(1){
+
+        grid-area: sect1;
+        padding: 5px;
+        
+    }
+    main section:nth(2){
+
+        grid-area: sect2;
+
+    }
+    main section:nth(3){
+      grid-area: sect3;
+    
+    }
+    main section:nth(4){
+        grid-area: sect4;
+        text-align: center;
+
+    }
+    main section:nth(5){
+        grid-area: sect5;}
+
+
+        h3{
+            text-align: center;
+            border:5px thick black;
+            background-color: brown;
+            color: antiquewhite;
+        }
+
+ul{
+
+    list-style-type:disc;
+    list-style-position: inside;
+}
+ p { padding: auto;}
+
+ li{
+ display: block;
+ padding: 5px;}
+
+ span{ text-align: center;}
+
+
+ section span:nth-child(1){
+
+    border:2px thick black;
+    background-color: blue;
+    color: white;
+
+ }
+ section span:nth-child(3){
+    border:2px thick black;
+    background-color: blue;
+    color: white;
+    
+ }
+ section span:nth-child(2){
+    border:2px thick black;
+    background-color: white;
+    color: black;
+
+ }
+
+
+
+
+
+
