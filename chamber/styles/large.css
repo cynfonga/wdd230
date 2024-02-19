@@ -1,0 +1,18 @@
+@media screen and (min-width:768px){  
+main{display: grid;
+    
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: "section1  section2"
+
+                     " section3  section3";
+grid-gap: 5px;}
+
+button{display:none;}
+
+nav ul { display: flex;}
+
+
+
+}
+

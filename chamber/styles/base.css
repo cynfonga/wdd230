@@ -66,3 +66,23 @@ footer{
     padding: 2px 0;
 }
 
+
+
+
+#burgerbutton span:nth-child(1){ display: block;}
+
+#burgerbutton span:nth-child(2) { display:none;}
+
+#burgerbutton.open span:nth-child(1){ display: none;}
+
+#burgerbutton.open  span:nth-child(2) { display:block;}
+
+nav ul { display:none;}
+
+nav ul.open{ display:block;}
+
+
+a { 
+ text-decoration: none;}
+
+
