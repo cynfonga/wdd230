@@ -1,7 +1,7 @@
 header, main, footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 40%;
-    margin:0 auto;
+    margin: 10px auto;
     
 }
 
@@ -12,7 +12,7 @@ header{ background-color:blueviolet;
     
 }
 
-
+h1{text-align: center;}
 
 main{ 
 
@@ -62,5 +62,7 @@ main section:nth-child(3){
 footer{
 
     background-color: blueviolet;
+    text-align: center;
+    padding: 2px 0;
 }
 
