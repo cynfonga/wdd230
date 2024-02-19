@@ -1,0 +1,66 @@
+header, main, footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 40%;
+    margin:0 auto;
+    
+}
+
+
+header{ background-color:blueviolet;
+    display:flex;
+     padding:0  0  0 20px;
+    
+}
+
+
+
+main{ 
+
+    display:grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr 1f 1fr ;
+    grid-template-areas: " section1"
+    " section2"
+    " section3";
+
+ grid-gap:5px;}
+
+
+ main section{
+    border: 5px thick black;
+
+    background-color:aliceblue;
+
+    height: 200px;
+
+ }
+
+main section:nth-child(1){ 
+
+    grid-area: section1;
+
+    
+    
+}
+
+
+main section:nth-child(2){ 
+
+    grid-area: section2;
+
+    max-height: 500px;
+}
+
+
+
+main section:nth-child(3){ 
+
+    grid-area: section3;
+}
+
+
+footer{
+
+    background-color: blueviolet;
+}
+
