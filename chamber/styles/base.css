@@ -6,9 +6,10 @@ header, main, footer{
 }
 
 
-header{ background-color:blueviolet;
+header{ background-color:brown;
     display:flex;
      padding:0  0  0 20px;
+     color: white;
     
 }
 
@@ -61,7 +62,8 @@ main section:nth-child(3){
 
 footer{
 
-    background-color: blueviolet;
+    background-color: brown;
+    color: white;
     text-align: center;
     padding: 2px 0;
 }
