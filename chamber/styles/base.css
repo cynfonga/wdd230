@@ -85,6 +85,8 @@ nav ul.open{ display:block;}
 
 
 a { 
- text-decoration: none;}
+ text-decoration: none;
+color:yellowgreen;
+padding-right: 5px;}
 
 
