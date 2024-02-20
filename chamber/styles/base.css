@@ -79,9 +79,9 @@ footer{
 
 #burgerbutton.open  span:nth-child(2) { display:block;}
 
-nav ul { display:none;}
+nav ul  a { display:none;}
 
-nav ul.open{ display:block;}
+nav ul.open  a{ display:block;}
 
 
 a { 
