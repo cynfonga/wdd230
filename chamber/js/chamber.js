@@ -6,9 +6,13 @@ const span2= document.getElementById('lastmodification');
 
 span2.textContent= document.lastModified;
 
+const button= document.getElementById('burgerbutton');
+const list=document.getElementById('burgermenu')
+
 function toggleMenu(){
 
-    document.getElementById('burgermenu').classList.toggle('open');
+   list.classList.toggle('open');
+   button.classList.toggle('open');
 }
-const button= document.getElementById('burgerbutton');
+
 button.onclick= toggleMenu;
