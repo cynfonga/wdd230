@@ -21,9 +21,9 @@ list.appendChild(listItem);
 listButton.addEventListener('click', function(){
 
 
-list.removeChild(ItemList)
+list.removeChild(listItem)
 
-})
+});
 
 input.focus();
 
