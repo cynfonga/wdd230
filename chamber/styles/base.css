@@ -90,3 +90,10 @@ color:yellowgreen;
 padding-right: 5px;}
 
 
+#mode{
+
+    position: absolute;
+    top:20px;
+    right:30px;
+    cursor:pointer;
+}
