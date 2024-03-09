@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author"  content="Cyrille Nana Nfonga">
+    <meta  name ="description" content = " lazy description" >
+    <title> progressive loading </title>
+     <link rel="stylesheet" href="lazyload.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <main>
+        <picture> <img src="https://loremflickr.com/400/600"  loading="lazy"  alt="placeholder"    width="400"    height="600"> </picture>
+        <picture> <img src="https://loremflickr.com/400/650" loading="lazy"   alt="placeholder"   width="400"    height="600"> </picture>
+        <picture> <img src="https://loremflickr.com/400/700"  loading="lazy"     alt="placeholder" width="400"    height="600"> </picture>
+    <picture> <img src="https://loremflickr.com/400/750"      loading="lazy"     alt="placeholder"     width="400"    height="600"> </picture>
+    <picture><img src="https://loremflickr.com/400/800"     loading="lazy"         alt="placeholder"   width="400"    height="600"> </picture>
+</main>
+    <footer>
+        <p>&copy;<span id="year"></span> Cyrille Nana Nfonga | Lazy loading</p>
+        <p>  <span id="last modification"></span></p>
+    </footer>
+    <script src="lazyload.js"></script>
 </body>
 </html>
