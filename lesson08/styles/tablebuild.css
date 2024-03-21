@@ -4,6 +4,7 @@ table{
     border:2px solid black;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    margin:20px auto;
 }
 
 caption{
