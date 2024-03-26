@@ -1,0 +1,21 @@
+
+header,main, footer {
+
+width:40%;}
+ .card{
+    display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr) );
+  
+  margin-left: 15px;
+
+}
+
+h1, h2{ 
+    text-align: center;
+
+    background-color: azure;
+    color:blue;
+    margin-left: 15px;
+    max-width: 340px;
+    
+}
