@@ -44,7 +44,8 @@ nav ul.open {
 }
 
 nav ul li { padding: 5px;
-text-decoration: none;}
+text-decoration: none;
+list-style-type: none;}
 
 iframe{
     display: block;
@@ -118,7 +119,8 @@ h3{
     text-align: center;
 }
 
-.card ul{ list-style-type: decimal-leading-zero;}
+.card ul{ list-style-type: decimal-leading-zero;
+ }
 
 footer{
     background-color: blue;
