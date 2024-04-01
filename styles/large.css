@@ -1,10 +1,15 @@
-@media screen and (min-width:768px){
-   nav ul , nav ul.open { display:flex;
-   text-align: center;
+@media screen and (min-width:1024px){
+   .navigation { display:flex;
+   text-align: left;
 }
 
+.navigation li {
+    display:block;
+    flex: 1 1 100%;
+}
 
-button{
+.navigation a { text-align: center;}
+#menu{
 
     display: none;
 }

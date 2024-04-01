@@ -32,20 +32,54 @@ nav { background-color: black;
 
 }
 
-nav ul { display:none ;
-text-decoration: none;
-padding:5px;
-color:white;
+#menu {
+    display:block;
+    font-size: 1rem;
+    font-weight:700;
+    text-decoration:none;
+    padding:.5rem .75rem;
+    background-color:#eee;
+    color:#000;
 }
 
-nav ul.open {
-
-    display:block
+#menu::before{
+    content:"\2630"
 }
 
-nav ul li { padding: 5px;
-text-decoration: none;
-list-style-type: none;}
+.navigation{
+    list-style-type:none;
+    margin:0 auto;
+}
+
+
+.navigation li{
+    display :none 
+}
+
+
+
+.navigation a{
+    display: block;
+    padding:.75rem;
+    text-align:left;
+    text-decoration:none;
+
+    font-weight:700;
+}
+
+.navigation a:hover, .navigation a:active{
+    color:white;
+    background-color:black;
+}
+
+
+ .open li{
+    display:block;
+}
+
+#menu.open::before {
+    content: "❌";
+}
 
 iframe{
     display: block;
@@ -54,35 +88,7 @@ iframe{
  padding: 15px;
 }
 
-#hamburgerbutton  span:nth-child(1){
-    display:block;
-}
 
-#hamburgerbutton  span:nth-child(2){
-    display: none;
-}
-
-
-#hamburgerbutton.open  span:nth-child(1){
-    display: none;
-}
-
-
-#hamburgerbutton.open span:nth-child(2){
-
-    display: block;
-}
-
-
-#hamburgerbutton{
-
-    padding: 5px;
-    background:none;
-    font-size:48px;
-    border:none;
-    color:white;
-    cursor: pointer;
-}
 
 main{
     display:grid;
