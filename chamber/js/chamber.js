@@ -15,3 +15,19 @@ button.addEventListener('click',()=>{
    button.classList.toggle('open')
 })
 
+
+const main = document.querySelector('main');
+const modebutton = document.querySelector('#mode');
+modebutton.addEventListener('click',()=>{
+   if (modebutton.textContent.includes("⚫")){
+      main.style.background='#000';
+      main.style.color='#fff';
+      modebutton.textContent="🟡";
+   }
+
+   else{
+      main.style.background='#fff';
+      main.style.color='#000';
+      modebutton.textContent="⚫";
+   }
+})

@@ -1,21 +1,31 @@
 @media screen and (min-width:768px){ 
-header,footer{
-    width: 80%;
-}
 
+    header , footer{
+        max-width: 80%;
+    }
+
+    
 #menu{
     display:none;
-}
+}S
 
 .container{
-    display: block;
+    display: flex;
 }
 
 .menulist li { 
     display: flex;
 }
 
+.menulist a{
+    display: block;
+     flex: 1 1 100%;
+}
 
+.container2{
+
+    width: 78%;
+}
 
 .container2{display: grid;
     
@@ -24,6 +34,22 @@ grid-template-rows: 1fr 1fr;
 grid-template-areas: " events   weather"
 "memberspotlights   memberspotlights ";
 grid-gap: 5px;}
+
+
+.container2 section:first-child{
+    grid-area:events;
+}
+
+.container2 section:nth-child(2){
+    grid-area: weather;
+    
+}
+
+
+.container2 section:nth-child(3){
+    grid-area: memberspotlights;
+    
+}
 
 
 }
