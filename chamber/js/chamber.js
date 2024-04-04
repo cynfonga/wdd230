@@ -6,30 +6,12 @@ const span2= document.getElementById('lastmodification');
 
 span2.textContent= document.lastModified;
 
-const button= document.getElementById('burgerbutton');
-const list=document.getElementById('burgermenu')
+const button= document.querySelector('#menu');
+const list= document.querySelector('.menulist');
 
-function toggleMenu(){
+button.addEventListener('click',()=>{
 
-   list.classList.toggle('open');
-   button.classList.toggle('open');
-}
+   list.classList.toggle('open')
+   button.classList.toggle('open')
+})
 
-button.onclick= toggleMenu;
-
-//dark mode
-
-const modeButton =document.querySelector("#mode");
-const section =document.querySelector(" section");
-modeButton.addEventListener('click' , function(){
-   if (modeButton.textContent.includes("☀")){
-      section.style.background='#000';
-      section.style.color='#fff';
-      modeButton.textContent='☼';}
-      else{
-         section.style.background="aliceblue"
-         section.style.color="#000"
-         modeButton.textContent=" ☀"
-      }
-   }
-)

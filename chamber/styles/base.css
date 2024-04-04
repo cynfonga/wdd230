@@ -1,99 +1,119 @@
-header, main, footer{
+
+
+header, footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    max-width: 40%;
+    max-width: 30%;
     margin: 10px auto;
     
 }
 
+.container2 {
+    max-width: 28%;
+    margin: 0 auto;
+}
 
-header{ background-color:brown;
+.logo{
+    display: block;
+    width:50px;
+    height:100%;
+    padding: 20px;
+    border-radius:50%;
+}
+
+
+#menu::before {
+    content:"\2630";
+}
+
+.container{
+     background-color: darkolivegreen;
     display:flex;
-     padding:0  0  0 20px;
-     color: white;
-    
+    gap: 10px;
+    color:black;
 }
 
-h1{text-align: center;}
+#menu{ font-size:24px;
+    display: block;    
+    font-weight: 700;
+margin:5px}
 
-main{ 
+    .menulist{list-style: none;}
 
-    display:grid;
-    grid-template-columns:1fr ;
-    grid-template-rows: 1fr 1f 1fr ;
-    grid-template-areas: " section1"
-    " section2"
-    " section3";
-
- grid-gap:5px;}
-
-
- main section{
-    border: 5px thick black;
-
-    background-color:aliceblue;
-
-    height: 200px;
-
- }
-
-main section:nth-child(1){ 
-
-    grid-area: section1;
-
-    
-    
+.menulist li{
+    display:none;
 }
 
-
-main section:nth-child(2){ 
-
-    grid-area: section2;
-
-    max-height: 500px;
+.menulist a{
+    display: block;
+    text-align:right;
+    text-decoration:none;
+    padding:5px;
+    color:black;
+    margin-right: 30px;
 }
 
-
-
-main section:nth-child(3){ 
-
-    grid-area: section3;
-}
-
-
-footer{
-
-    background-color: brown;
+.menulist a:hover, .menulist a:active{
     color: white;
-    text-align: center;
-    padding: 2px 0;
+    background-color: black;
 }
 
 
-
-
-#burgerbutton span:nth-child(1){ display: block;}
-
-#burgerbutton span:nth-child(2) { display:none;}
-
-#burgerbutton.open span:nth-child(1){ display: none;}
-
-#burgerbutton.open  span:nth-child(2) { display:block;}
-
-nav ul  a { display:none;}
-
-nav ul.open  a{ display:block;}
-
-
-a { 
- text-decoration: none;
-color:yellowgreen;
-padding-right: 5px;}
-
-
-#mode{
-
-    position: absolute;
-    top:20px;
-    right:30px;
-    cursor:pointer;
+.hero{
+    width:100%;
+    display:block;
+    max-height:200px;
 }
+
+
+#menu.open::before{
+    content:"✖";
+}
+
+.open li {
+    display:block;
+}
+
+.container2{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-areas: " events"
+    " weather"
+    "memberspotlights";
+    grid-gap:10px;
+    background-color: white;
+    color: black;
+}
+
+h3{
+    background-color: darkolivegreen;
+    border-bottom: 5px thin black;
+    white-space: nowrap;
+}
+
+section {
+
+    height: 250px;
+}
+
+.container2 section:first-child{
+    grid-area:events;
+}
+
+.container2 section:nth-child(2){
+    grid-area: weather;
+    
+}
+
+
+.container2 section:nth-child(3){
+    grid-area: memberspotlights;
+    
+}
+
+footer{background-color: darkolivegreen;
+display: flex;}
+
+
+
+
+

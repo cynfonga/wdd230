@@ -1,17 +1,29 @@
-@media screen and (min-width:768px){  
-main{display: grid;
+@media screen and (min-width:768px){ 
+header,footer{
+    width: 80%;
+}
+
+#menu{
+    display:none;
+}
+
+.container{
+    display: block;
+}
+
+.menulist li { 
+    display: flex;
+}
+
+
+
+.container2{display: grid;
     
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr .5fr;
 grid-template-rows: 1fr 1fr;
-grid-template-areas: "section1  section2"
-
-                     " section3  section3";
+grid-template-areas: " events   weather"
+"memberspotlights   memberspotlights ";
 grid-gap: 5px;}
-
-button{display:none;}
-
-nav ul { display: flex;}
-
 
 
 }
