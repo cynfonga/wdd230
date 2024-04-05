@@ -11,8 +11,8 @@ const list= document.querySelector('.menulist');
 
 button.addEventListener('click',()=>{
 
-   list.classList.toggle('open')
-   button.classList.toggle('open')
+   list.classList.toggle('open');
+   button.classList.toggle('open');
 })
 
 
