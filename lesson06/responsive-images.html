@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author"  content=" Cyrille Nana Nfonga">
-    <meta name=" description" content=" responsive-images design">
+        <title>Cyrille - WDD230- responsive images </title>
+        <meta  name="description"  content="Cyrille Nana Nfonga Web Frontend Development Course Assignment Portal">
+        <meta name="author"  content="Cyrille" >
+        <meta property="og:title"  content=" WDD 230 course content">
+        <meta property="og:type"  content=" a web site">
+        <meta property="og:image"  content="https://www.africaoutlookmag.com/media/2022/12/nelson-mandela-bay-metropolitan-municipality-a-walk-on-the-wild-and-wonderful-side-1580434698.coverImage.2x-2-jpg-webp-webp.webp">
+        <meta property="og:url"  content="https://cynfonga.github.io/wdd230/">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/responsive-images.css">
     <title>  responsive-images</title>
 </head>
 <body>
-    
+    <main>
+        <div class="hero">
+            <picture>
+                <source  srcset="images/temple-small.webp"  media="max-width:500px">
+                <source srcset="images/temple-medium.webp" media="max-width:1000px">
+                <img src="images/temple-large.webp" alt="Durban temple" width="1500"  height="750">
+                <span>Durban temple -South Africa</span>
+            </picture>
+        </div>
+    </main>
 </body>
 </html>
