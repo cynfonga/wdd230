@@ -71,10 +71,10 @@ header{
     cursor:pointer;
 }
 
-.hero{
+.hero  img{
     width:100%;
     display:block;
-    max-height:200px;
+    height:auto;
 }
 
 

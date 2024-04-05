@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     
-
-    
 </head>
 <body>
     <header>
@@ -34,8 +32,13 @@
     </div>
 
      </nav>
-     <img src="images/hero-image.webp" alt=" hero-image"   width="200"  height="100" class="hero">
-
+     <div class="hero">
+        <picture>
+            <source srcset="images/hero-s.webp"  media="max-width:500px">
+            <source srcset="images/hero-m.webp"  media="max-width:1000px">
+     <img src="images/hero-l.webp" alt=" hero-image"   width="1500"  height="750" >
+     </picture>
+  </div>
     </header>
 
     <main class="container2">
