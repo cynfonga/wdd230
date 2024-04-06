@@ -10,13 +10,19 @@ header,main,footer,iframe{
 }
 
 
+header, footer{
+
+    background-color: blue;
+}
+
+
 div{
 
     display:flex;
      justify-content: center;
      gap:10px;
 
-    background-color: blue;
+    
     color: white;
     
 }
@@ -26,6 +32,28 @@ img{ width:70px;
 display: block;
 padding:5px;
  
+}
+
+
+.temple {
+    position: relative;
+}
+
+
+.herolabel  p{
+    position: absolute ;
+    border: 5px thin black;
+  background-color: skyblue;
+    top: .5px;
+    left: 450px;
+    font-size: 2rem;
+}
+
+.temple img{
+    width:40%;
+    height:auto;
+    display: block;
+    margin:0 auto;
 }
 
 nav { background-color: black;
@@ -40,6 +68,7 @@ nav { background-color: black;
     padding:.5rem .75rem;
     background-color:#eee;
     color:#000;
+    cursor: pointer;
 }
 
 #menu::before{
