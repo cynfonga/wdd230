@@ -6,10 +6,37 @@
     <meta name="description"  content=" styling form">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Form Styling</title>
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
 
-    <form action=""></form>
+    <header>
+
+    </header>
+     <main>
+    <form  method=" get"     action="record.html">
+
+        <fieldset>
+         <legend>Personal Information</legend>
+          <label > Username* <input type="text"  id="username" name="username"  required> </label>    
+          <label >  Password1* <input type="password1"  id="password1" name="password2" required> </label>
+          <label > Password2* <input type="password2" id="password2"   name="password2"  required>  </label>
+          <label > Page rating <input type="number"  name="pagerating" step="1"  value="3"  min="1"  max="10"></label>
+          <input type= "submit"  value="send your information">
+           
+        </fieldset>
+    
+
+
+
+
+    </form>
+
+    </main>
+
+    <footer></footer>
+
+      <script src="scripts/getdates.js"></script>
     
 </body>
 </html>
