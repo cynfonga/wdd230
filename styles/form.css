@@ -118,3 +118,21 @@ footer{
     padding: 10px;
 
 }
+
+
+
+.mform  fieldset{
+
+    margin:2rem 0;
+
+    border:1px  solid #ddd;
+
+    border-radius:6px;
+    padding:.5rem 2%
+}
+
+
+.mform legend{
+    color: blue;
+    padding:0.5rem
+}
