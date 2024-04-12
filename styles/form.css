@@ -157,3 +157,10 @@ footer{
     color:#555;
     
 }
+
+.mform  input[type="submit"]{
+    border:none;
+    padding: .8rem;
+    margin:-1rem 2% 2rem 2%;}
+
+
