@@ -160,7 +160,9 @@ footer{
 
 .mform  input[type="submit"]{
     border:none;
+   background-color:red;
     padding: .8rem;
-    margin:-1rem 2% 2rem 2%;}
+    margin:1rem 2% 2rem 2%;
+border-radius: 6px;}
 
 
