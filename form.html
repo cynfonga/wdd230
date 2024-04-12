@@ -11,17 +11,32 @@
 <body>
 
     <header>
+        <div> <img src="images/cyril.webp" alt="my picture"   height="80" width="70">
+          <h1>Cyrille NaNa Nfonga</h1> 
 
-    </header>
+    
+       <button  id="menu"> </button> </div>
+       <nav>
+        <ul class="navigation">
+          <li> <a href="#">Home </a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Plan</a></li>
+           <li><a href="chamber/index.html" target="_blank"> Chamber</a></li>
+           <li><a href=""> Discover Nelson Mandela Bay</a></li>
+           <li> <a href="Link to BYU-Idaho's home page and have this link open a new window/tab. ">BYU-Idaho</a></li>
+          <li>  <a href="https://www.churchofjesuschrist.org/study/scriptures"> Scriptures</a></li>
+       </ul>
+   </nav>
+     
+</header>
      <main>
     <form  method=" get"     action="record.html">
 
         <fieldset>
          <legend>Personal Information</legend>
           <label > Username* <input type="text"  id="username" name="username"  required> </label>    
-          <label >  Password1* <input type="password1"  id="password1" name="password2" required> </label>
+          <label >  Password1* <input type="password1"  id="password1" name="password1" required pattern="[a-zA-Z-]{6-}"> </label>
           <label > Password2* <input type="password2" id="password2"   name="password2"  required>  </label>
-          <label > Page rating <input type="number"  name="pagerating" step="1"  value="3"  min="1"  max="10"></label>
+          <label > Page Rating <input type="number"  name="pagerating" step="1"  value="3"  min="1"  max="10"></label>
           <input type= "submit"  value="send your information">
            
         </fieldset>
@@ -34,9 +49,10 @@
 
     </main>
 
-    <footer></footer>
-
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Cyrille Nana Nfonga | wdd230 home page | South Africa</p>
+        <p> <span id="lastmodification"></span></p>
+</footer>
       <script src="scripts/getdates.js"></script>
-    
 </body>
 </html>
