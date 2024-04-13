@@ -18,14 +18,12 @@ const todayDisplay = document.querySelector(".today");
 
   let numvisits = Number(localStorage.getItem("visit-ls"));
 
-if(numvisits!==0){
+if(numvisits!==0){ spanvisit.textContent = numvisits;}
 
-    spanvisit.textContent = numvisits;}
-
-    else{
-        spanvisit.textContent= " this is my first vist";
+    else
+               {spanvisit.textContent= " this is my first vist";}
     
-    } 
+
     numvisits++;
   localStorage.setItem("visit-ls", numvisits);
 
