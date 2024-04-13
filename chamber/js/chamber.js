@@ -37,14 +37,14 @@ modebutton.addEventListener('click',()=>{
 
  async function getMemberData(){
    const response = await fetch(url);
-   const data = await response.json();
-   displayMembers(data.companies);
+   const mydata = await response.json();
+   displayMembers(mydata.companies);
  }
 
  getMemberData();
 
  const displayMembers = (companies) => {
-   companies.forEach( (company) =>{
+   companies.forEach(function(company){
       let card = createElement('section');
       let fullName = document.createElement('h2'); // fill in the blank
       let portrait = document.createElement('img');

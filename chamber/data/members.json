@@ -1,3 +1,66 @@
 {
-    "member":"nana"
+   "companies":[
+    { "name":"Microsoft",
+    "address":"havelock street",
+    "phone number":"44444444",
+    "website":"https://microsoft.com",
+    "image":"https://www.iconfinder.com/icons/45438/companies_icon",
+    "membership level":"gold"
+   },
+    { "name":"Amazon",
+    "address":"rink street",
+    "phone number":"222222",
+    "website":"https://amazon.com",
+    "image":"https://www.iconfinder.com/icons/44831/companies_competitors_departmens_offices_icon",
+    "membership level":"silver"
+   },
+
+    { "name":"Google",
+    "address":"govan mbeki avenue",
+    "phone number":"333333",
+    "website":"https://google.com",
+    "image":"https://www.iconfinder.com/icons/2605334/buildings_business_city_companies_company_office_workspace_icon",
+    "membership level":"silver"
+   },
+
+    { "name":"Dimension data",
+    "address":"newtown park",
+    "phone number":"666666",
+    "website":"https://dimension.com",
+    "image":"https://www.iconfinder.com/icons/7501713/buildings_city_urban_office_companies_property_skyscrapers_icon",
+    "membership level":"bronze"
+   },
+
+    { "name":"Spar",
+    "address":"5 ways",
+    "phone number":"888888",
+    "website":"https://Spar.com",
+    "image":"https://www.iconfinder.com/icons/4127141/buildings_business_business_&amp;_finance_companies_office_property%E2%80%99s_icon",
+    "membership level":"silver"
+   },
+
+    { "name":"Hungry Lion",
+    "address":"pearson street",
+    "phone number":"111111",
+    "website":"https://hungrylion.com",
+    "image":"https://istockphoto.6q33.net/c/1412025/258824/4205?sharedid=SRP&u=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fback-money-refund-icon-orange-version-gm1281579246-379572039",
+    "membership level":"gold"
+   },
+
+    { "name":"kfc",
+    "address":"fort street",
+    "phone number":"444444",
+    "website":"https://kfc.com",
+    "image":"https://www.iconfinder.com/icons/4259524/buildings_business_business_&amp;_finance_companies_office_property%E2%80%99s_icon",
+    "membership level":"silver"
+   },
+
+    { "name":"Aspen",
+    "address":"russel road",
+    "phone number":"777777",
+    "website":"https://aspen.com",
+    "image":"https://www.iconfinder.com/icons/1296029/companies_building_buildings_business_office_icon",
+    "membership level":"bronze"
+   }
+]
 }
