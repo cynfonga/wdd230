@@ -34,3 +34,11 @@ modebutton.addEventListener('click',()=>{
 
  const url="../js/data/members.json";
  const cards = document.querySelector('#cards')
+
+ async function getMembersData(){
+   const response = await fetch(url);
+   const data = await response.json();
+   displayMembers(data.members);
+ }
+
+ getMembersData();
