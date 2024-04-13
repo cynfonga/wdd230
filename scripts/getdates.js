@@ -35,7 +35,7 @@ if(numvisits!==0){
 const pass2 = document.querySelector("#password1");
 const message = document.querySelector("#formmessage");
 
-kp2.addEventListener("focusout", checkSame);
+pass2.addEventListener("focusout", checkSame);
 
 // This should be refactored.
 function checkSame() {
