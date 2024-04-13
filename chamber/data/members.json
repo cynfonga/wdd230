@@ -1,0 +1,53 @@
+{
+ "companies":[
+    { "name": " Micosoft",
+      "address":" Nelson Mandela Bay",
+      "phone_number":"5555555",
+      "image":"https://www.iconfinder.com/icons/718952/company_microsoft_logo_microsoft_logo_windows_technology_icon",
+      " membership level":"gold"
+
+    }, 
+
+    { "name": "Amazon",
+      "address":"Central",
+      "phone_number":"2222222",
+      "image":"https://www.iconfinder.com/icons/2613285/amazon_cloud_computing_commerce_company_electronics_shopping_web_server_icon",
+      " membership level":"gold"
+
+    },
+
+    { "name": "Google",
+      "address":"bird street",
+      "phone_number":"888888",
+      "image":"https://www.iconfinder.com/icons/2613276/company_google_hardware_and_software_internet_search_services_technology_icon",
+      " membership level":"gold"
+
+    },
+
+    { "name": "Dimension Data",
+      "address":"cuyler street",
+      "phone_number":"777777",
+      "image":"https://www.iconfinder.com/icons/2247720/building_city_company_construction_icon",
+      " membership level":"silver"
+
+    },
+
+    { "name": "Shoprite",
+      "address":"Havelock street",
+      "phone_number":"444444",
+      "image":"https://www.iconfinder.com/icons/7217232/office_business_work_workplace_home_company_icon",
+      " membership level":"bronze"
+
+    },
+
+    { "name": "Hungry Lion",
+      "address":"Govan Mbeki avenue",
+      "phone_number":"555555",
+      "image":"",
+      " membership level":"silver"
+
+    }
+ ]
+
+
+}

@@ -31,3 +31,6 @@ modebutton.addEventListener('click',()=>{
       modebutton.textContent="⚫";
    }
 })
+
+ const url="../js/data/members.json";
+ const cards = document.querySelector('#cards')
