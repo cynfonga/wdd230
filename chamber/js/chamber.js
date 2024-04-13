@@ -32,7 +32,7 @@ modebutton.addEventListener('click',()=>{
    }
 })
 
- const url="https://cynfonga.github.io/wdd230/chambers/data/members.json";
+ const url="https://cynfonga.github.io/wdd230/chamber/data/members.json";
  const cards = document.querySelector('#cards')
 
  async function getMemberData(){
