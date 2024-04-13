@@ -42,10 +42,10 @@
     </header>
 
     <main>
-         <form method="get" action="thankyou.html"  >
+         <form method="get" action="thankyou.html"  class="mform" >
 
           <fieldset>
-            <legend> personal information </legend>
+            <legend> Personal Information </legend>
             <label >First Name* <input type="text" name="fname " id="fname" required></label>
             <label >Last Name* <input type="text" name="lname " id="fname" required></label>
             <label > Title* <input type="text" name="title " id="title" required></label>
@@ -56,10 +56,13 @@
             <legend> Organization's  Details</legend>
             <label >Organization's Name  <input type="text" name="organization" id="organization"></label>
             <div>  Membership Type</div>
+            <label > <input type="radio" value="NP" name="member"> NP</label>
             <label > <input type="radio" value="bronze" name="member"> Bronze</label>
             <label > <input type="radio" value="silver" name="member" > Silver</label>
             <label > <input type="radio" value="gold"  name="member"> Gold</label>
           </fieldset>
+          <p>
+          <input type=" submit"  value="Send Information"></p>
 
          </form>
     </main>

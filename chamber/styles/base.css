@@ -157,3 +157,66 @@ h3{ background-color:darkolivegreen;}
  footer{
     margin-bottom: 10px;
  }
+
+
+
+
+ .mform  fieldset{
+    margin:2rem 0;
+    border:1px solid #ddd;
+    border-radius:6px;
+    padding:.5rem 2%;
+ }
+
+ .mform legend{
+    color:blue;
+    padding:0.5rem;
+ }
+
+ .mform div{
+
+    padding-top:1rem;
+    color:blue;
+    font-size:.9rem;
+ }
+
+ .mform label{
+    display: block;
+    padding-top:1rem;
+    color:blue;
+    font-size:.9rem;
+ }
+
+ .mform input[type="text"],
+ .mform input[type="tel"]
+ {
+
+    background-color:#eee;
+    display:block;
+    border:1px solid #999;
+    border-radius:6px;
+    padding:.75rem;
+    color:#555;
+    width:100%;
+    appearance:none;
+ }
+
+ .mform input[type="submit"]{
+    border:none;
+    border-radius:6px;
+    width:100%;
+    margin:-1rem 2% 2rem 2%;
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+ 
