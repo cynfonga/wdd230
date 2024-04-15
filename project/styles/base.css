@@ -112,7 +112,7 @@ footer{ text-align: center;}
 
 
 table,tr,th,td,caption{
-    border:6px solid #eee;
+    border:6px solid black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-collapse:collapse;
     padding:0.5rem;
