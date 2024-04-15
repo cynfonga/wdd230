@@ -32,11 +32,16 @@ header, footer{
 border-radius:50%;}
 
 header, main, footer{
+    margin:20px auto;
 
     width:50%;
 }
 
-
+.nowrap{
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+}
 
 .coontainer1 nav{ background-color: brown;
  border: 5px solid black;
@@ -47,8 +52,38 @@ display: flex;}
 .container1 ul { display: flex;
     justify-content: flex-end;
     gap:20px;
-padding : 10px;}
+ list-style-type: none;}
 
-ul{ list-style-type: none;}
+ a{
+    text-decoration: none;
+    color: 
+
+    black;
+ }
+
+  img{
+    display:block;
+    width: 80%;
+    height: auto;
+    
+ }
+
+
+ .container2{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "sect1"
+    "sect2"
+    "sect3"
+    "sect4"
+    "sect5"
+    "sect6";
+ }
+
+            
+        
+
 
 
