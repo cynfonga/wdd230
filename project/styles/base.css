@@ -15,7 +15,7 @@ header, footer{
 
 }
 
-
+h2 { text-align: center;}
 
 
 
@@ -92,8 +92,10 @@ display: flex;}
 .container2 section:nth-child(1){ grid-area: sect1; }
 .container2 section:nth-child(2){ grid-area: sect2; }
 .container2 section:nth-child(3){ grid-area: sect3; }
-.container2 section:nth-child(4){ grid-area: sect1; }
-.container2 section:nth-child(){ grid-area: sect1; }
-.container2 section:nth-child(1){ grid-area: sect1; }
+.container2 figure:nth-child(1){ grid-area: sect1; }
+.container2 figure:nth-child(2){ grid-area: sect1; }
+.container2 figure:nth-child(3){ grid-area: sect2; }
+
+
 
 
