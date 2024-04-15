@@ -19,6 +19,8 @@ h2 { text-align: center;}
 
 
 
+
+
 #logo{
     display: block;
 
@@ -65,6 +67,12 @@ display: flex;}
     black;
  }
 
+ a:visited{ color: rgb(189, 163, 173);}
+
+ a:active, a:hover{
+    color:red;
+ }
+
   img{
     display:block;
     width: 80%;
@@ -95,6 +103,8 @@ display: flex;}
 .container2 figure:nth-child(1){ grid-area: sect1; }
 .container2 figure:nth-child(2){ grid-area: sect1; }
 .container2 figure:nth-child(3){ grid-area: sect2; }
+
+footer{ text-align: center;}
 
 
 
