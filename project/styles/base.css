@@ -1,0 +1,54 @@
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+header, footer{
+
+    max-width:50%;
+    background-color: brown;
+    padding: 10px;
+
+}
+
+
+
+
+
+#logo{
+
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+#social{
+  width:40px;
+  height: 20px;
+border-radius:50%;}
+
+header, main, footer{
+
+    width:50%;
+}
+
+
+
+.coontainer1 nav{ background-color: brown;
+ border: 5px solid black;
+display: flex;}
+
+
+
+.container1 ul { display: flex;
+    justify-content: flex-end;
+    gap:20px;
+padding : 10px;}
+
+ul{ list-style-type: none;}
+
+
