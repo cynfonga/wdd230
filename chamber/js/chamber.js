@@ -52,11 +52,11 @@ modebutton.addEventListener('click',()=>{
       // Build the h2 content out to show the prophet's full name
       fullName.textContent = `${company.name} `; // fill in the blank
       // Build the image portrait by setting all the relevant attributes
-      portrait.setAttribute('src',`${company.image}`);
+      portrait.setAttribute('src',company.image);
       portrait.setAttribute('alt', `Portrait of ${company.name} `); // fill in the blank
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '150');
-      portrait.setAttribute('height', '200');
+      portrait.setAttribute('width', '60');
+      portrait.setAttribute('height', '50');
   
       // Append the section(card) with the created elements
       card.appendChild(fullName); //fill in the blank

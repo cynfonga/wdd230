@@ -4,14 +4,14 @@
     "address":"havelock street",
     "phone number":"44444444",
     "website":"https://microsoft.com",
-    "image":"https://cdn2.iconfinder.com/data/icons/social-media-and-payment/64/-50-64.png",
+    "image":"https://cdn1.iconfinder.com/data/icons/flat-and-simple-part-1/128/microsoft-64.png",
     "membership level":"gold"
    },
     { "name":"Amazon",
     "address":"rink street",
     "phone number":"222222",
     "website":"https://amazon.com",
-    "image":"https://www.iconfinder.com/icons/44831/companies_competitors_departmens_offices_icon",
+    "image":"https://cdn4.iconfinder.com/data/icons/socialcones/508/Amazon-64.png",
     "membership level":"silver"
    },
 
@@ -19,7 +19,7 @@
     "address":"govan mbeki avenue",
     "phone number":"333333",
     "website":"https://google.com",
-    "image":"https://www.iconfinder.com/icons/2605334/buildings_business_city_companies_company_office_workspace_icon",
+    "image":"https://cdn4.iconfinder.com/data/icons/socialcones/508/Google-64.png",
     "membership level":"silver"
    },
 
@@ -27,7 +27,7 @@
     "address":"newtown park",
     "phone number":"666666",
     "website":"https://dimension.com",
-    "image":"https://www.iconfinder.com/icons/7501713/buildings_city_urban_office_companies_property_skyscrapers_icon",
+    "image":"https://cdn2.iconfinder.com/data/icons/business-and-finance-367/30/office_business_work_workplace_home_company-_24-64.png",
     "membership level":"bronze"
    },
 
@@ -35,7 +35,7 @@
     "address":"5 ways",
     "phone number":"888888",
     "website":"https://Spar.com",
-    "image":"https://www.iconfinder.com/icons/4127141/buildings_business_business_&amp;_finance_companies_office_property%E2%80%99s_icon",
+    "image":"https://cdn1.iconfinder.com/data/icons/building-vol-3-3/512/9-64.png",
     "membership level":"silver"
    },
 
@@ -43,7 +43,7 @@
     "address":"pearson street",
     "phone number":"111111",
     "website":"https://hungrylion.com",
-    "image":"https://istockphoto.6q33.net/c/1412025/258824/4205?sharedid=SRP&u=https%3A%2F%2Fwww.istockphoto.com%2Fvector%2Fback-money-refund-icon-orange-version-gm1281579246-379572039",
+    "image":"https://media.istockphoto.com/id/1261718311/vector/calendar-schedule-icon-black-color.jpg?b=1&s=170x170&k=20&c=k1gQWzLxLbjFe2Wp2MMtBslk3zbdv18n-tfsktDS9Q4=",
     "membership level":"gold"
    },
 
@@ -51,7 +51,7 @@
     "address":"fort street",
     "phone number":"444444",
     "website":"https://kfc.com",
-    "image":"https://www.iconfinder.com/icons/4259524/buildings_business_business_&amp;_finance_companies_office_property%E2%80%99s_icon",
+    "image":"https://media.istockphoto.com/id/2090910373/vector/solid-vector-icon-for-real-estate.jpg?b=1&s=170x170&k=20&c=bcQnQ7GD1EwBH2yyHjB5_cz4k2zvG1ExowQCSpEIz-o=",
     "membership level":"silver"
    },
 
@@ -59,7 +59,7 @@
     "address":"russel road",
     "phone number":"777777",
     "website":"https://aspen.com",
-    "image":"https://www.iconfinder.com/icons/1296029/companies_building_buildings_business_office_icon",
+    "image":"https://cdn4.iconfinder.com/data/icons/is_beta_accounting/png/64/company.png",
     "membership level":"bronze"
    }
 ]
