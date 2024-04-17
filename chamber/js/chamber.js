@@ -45,7 +45,7 @@ modebutton.addEventListener('click',()=>{
 
  const displayMembers = (companies) => {
    companies.forEach(function(company){
-      let card = createElement('section');
+      let card = document.createElement('section');
       let fullName = document.createElement('h2'); // fill in the blank
       let portrait = document.createElement('img');
   
@@ -67,3 +67,12 @@ modebutton.addEventListener('click',()=>{
   }
 
 
+ let visitDisplay= document.querySelector('#today');
+ let todayVisit = localStorage.getItem('dayls');
+
+ if (todayVisit==new Date()) {
+   visitDisplay.textContent= " welcome let us know if u have any questions";
+ }
+
+ localStorage.setItem('dayls',todayVisit);
+  
