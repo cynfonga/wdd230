@@ -55,7 +55,7 @@ modebutton.addEventListener('click',()=>{
       portrait.setAttribute('src',company.image);
       portrait.setAttribute('alt', `Portrait of ${company.name} `); // fill in the blank
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '60');
+      portrait.setAttribute('width', '40');
       portrait.setAttribute('height', '50');
   
       // Append the section(card) with the created elements
